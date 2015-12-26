@@ -4,7 +4,7 @@ import time
 
 totle_breaks = 3
 break_count = 0
-print("This program startd ")
+print("This program startd on " + time.ctime())
 while(break_count < totle_breaks):
     time.sleep(10)
     webbrowser.open("http://www.baidu.com")
